@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dialer"
+            android:title="Dialer"/>
+        <item
+            android:id="@+id/nav_tele"
+            android:title="TelephonyManager"/>
+        <item
+            android:id="@+id/nav_wifi"
+            android:title="WifiManager"/>
+        <item
+            android:id="@+id/nav_bt"
+            android:title="Bluetooth"/>
+        <item
+            android:id="@+id/nav_nfc"
+            android:title="NFC"/>
+    </group>
+</menu>
